@@ -22,7 +22,7 @@
             android:label="@string/title_activity_use_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar"
             android:exported="true">
-            <intent-filter>
+            <!-- <intent-filter>
             <action android:name="android.intent.action.VIEW" />
 
             <category android:name="android.intent.category.DEFAULT" />
@@ -30,14 +30,14 @@
             <data android:mimeType="text/giftcards_use" />
                 <data android:scheme="giftcard" />
                 <data android:host="appsec.moyix.net"/>
-            </intent-filter>
+            </intent-filter> -->
         </activity>
         <activity
             android:name=".GetCard"
             android:label="@string/title_activity_get_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar"
             android:exported="true">
-            <intent-filter>
+            <!-- <intent-filter>
             <action android:name="android.intent.action.VIEW" />
 
             <category android:name="android.intent.category.DEFAULT" />
@@ -45,14 +45,14 @@
             <data android:mimeType="text/giftcards_buy" />
                 <data android:scheme="giftcard" />
                 <data android:host="appsec.moyix.net"/>
-            </intent-filter>
+            </intent-filter> -->
         </activity>
         <activity
             android:name=".ProductScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/Theme.GiftcardSite.NoActionBar"
             android:exported="true">
-            <intent-filter>
+            <!-- <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -60,7 +60,7 @@
                 <data android:mimeType="text/giftcards_browse" />
                 <data android:scheme="giftcard" />
                 <data android:host="appsec.moyix.net"/>
-            </intent-filter>
+            </intent-filter> -->
         </activity>
         <activity
             android:name=".MainActivity"
@@ -77,7 +77,7 @@
             android:label="@string/title_activity_scrolling_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar"
             android:exported="true">
-            <intent-filter>
+            <!-- <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -85,7 +85,7 @@
                 <data android:mimeType="text/giftcards_list" />
                 <data android:scheme="giftcard" />
                 <data android:host="appsec.moyix.net"/>
-            </intent-filter>
+            </intent-filter> -->
         </activity>
     </application>
 

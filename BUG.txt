@@ -1,0 +1,3 @@
+The vulnerability is located in The UseCard.kt in which the client calls the useCard function in which the parameters passed are card.ID and Token. 
+Card.ID is not being validated against the users token, thus causing a mismatch between the current user whos session is stored in the token. 
+In order to fix this the backend server needs a mechanism for checking user Identity. 

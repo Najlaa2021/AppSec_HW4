@@ -1,0 +1,15 @@
+Q1)What are the two types of Intents?
+A) the two types of intents are explict and implict
+Q2)Which of the two types of Intents are more secure?
+A2)explict are more secure than implict 
+Q3)What type of Intent is shown on lines 69 to 73 of SecondFragment.kt?
+A3)lines 69-73 has an implict intent due to the fact that the data being passed is a url
+Q4)What type of Intent is shown on lines 68 to 70 of ThirdFragment.kt?
+A4) lines 68-70 has an explict intent because on line 68 the activity that is being passed to the intent is a class.
+Q5)Which of these two Intents is the proper way to do an Intent?
+A5)the intent in ThirdFragment is proper due to class being passed in. 
+
+
+In order to fix the issue with the intent, the SecondFragment.kt file needs to be modified on line 71 to point to a class and not a URL. 
+
+An example of safe way to declare intent is   var intent = Intent(activity, ProductScrollingActivity::class.java)
